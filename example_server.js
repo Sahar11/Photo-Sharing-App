@@ -1,6 +1,6 @@
 const http = require('http');
-const fs = require('fs');
-const homePage = fs.readFileSync("index.html");
+const fs = require('fs'); // file sync enables us to read contents from an HTML file if it exists
+const homePage = fs.readFileSync("index.html");// file sync enables us to read contents from an HTML file if it exists
 const aboutPage = fs.readFileSync("about.html");
 const contactPage = fs.readFileSync("contact.html");
 const notFoundPage = fs.readFileSync("notFound.html");
