@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/Sahar11/Photo-Sharing-App#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mariadb": "^3.1.1",
+    "sequelize": "^6.31.0",
+    "sequelize-cli": "^6.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
