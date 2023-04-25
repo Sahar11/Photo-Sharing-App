@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "database_development",
+    "password": "Dawnapple!23",
+    "database": "photos",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
+    "password": "Dawnapple!23",
+    "database": "photos",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
+    "password": "Dawnapple!23",
+    "database": "photos",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   }
 }
