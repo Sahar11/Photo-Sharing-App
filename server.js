@@ -3,10 +3,16 @@ const express = require('express');
 const app =express();
 const db = require('./models');
 const bodyParser = require('body-parser');
+const PhotosRouter = require('./routers/PhotosRouter');
+const CommentsRouter = require('./routers/CommentsRouter');
+const UsersRouter = require('./routers/UsersRouter');
 
 app.use(bodyParser.json())
 app.use(express.static('public')) //enable everthing in the folder as static file
-app.set('view engine', 'ejs')
+app.set('view engine', 'ejs');
+app.use('/images', PhotosRouter);
+app.use('/comments', CommentsRouter);
+app.use('/user', UsersRouter);
 
 app.get('/', (request, response) => {
   response.render("index");
